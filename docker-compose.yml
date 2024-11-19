@@ -1,0 +1,12 @@
+services:
+  app:
+    image: php:8.2-apache
+    container_name: slim-app
+    ports:
+      - "8080:80"
+    volumes:
+      - ./app:/var/www/html
+    working_dir: /var/www/html
+    build:
+      context: .
+      dockerfile: Dockerfile

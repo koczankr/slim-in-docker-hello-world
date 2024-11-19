@@ -1,0 +1,27 @@
+# PHP Composer
+/vendor/
+*.lock
+
+# Docker
+.env
+docker-compose.override.yml
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+/logs/
+tmp/
+cache/
+var/cache/
+
+# Node.js (ha van frontend)
+#node_modules/
+
+# Egyéb
+*.log
