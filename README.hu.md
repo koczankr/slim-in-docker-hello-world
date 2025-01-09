@@ -7,6 +7,8 @@ Ez a README magyar nyelvű verziója. Egyéb nyelveken:
 
 - [English version](README.md)
 
+
+
 ## Cél
 
 **Docker konténeres környezetben szeretnék készíteni egy Slim framework projektet. Mindezt szeretném eltárolni egy GitHub repozitoriban.**
